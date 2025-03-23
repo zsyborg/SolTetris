@@ -320,7 +320,7 @@ const Tetris: React.FC = () => {
             <div className="game-header">
                 
 
-                <h1 className='title-3d'>SOL 3D Tetris</h1>
+                <h1 className='title-3d'>Building Blocks</h1>
 
                 <div className='game-buttons-container'>
                     <ControlButton
@@ -328,7 +328,7 @@ const Tetris: React.FC = () => {
                         bgColor='#77c899'
                         shadowColor='#27ae60'
                     > 
-                        {gameStarted ? "Quit" : "Start"}
+                        {gameStarted ? "Quit" : "Start Building"}
                     </ControlButton>
 
                     <ControlButton

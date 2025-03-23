@@ -3,7 +3,7 @@
  */
 const ThreeSidedGrid: React.FC = () => {
     const size = 6;
-    const divisions = 6;
+    const divisions = 8;
     const color = "gray"
 
     return (

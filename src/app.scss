@@ -1,4 +1,4 @@
-$color-game-bg: #484954;
+$color-game-bg: #ffffff;
 $color-game-title: #ffc5e8;
 $color-game-title-shadow: #855575;
 
@@ -13,7 +13,7 @@ $color-game-title-shadow: #855575;
 }
 
 .root {
-    background-image: url('../public/bg.jpg');
+    // background-image: url('../public/bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -22,7 +22,7 @@ $color-game-title-shadow: #855575;
 
 .button-3d {
     border: none;
-    margin: 10px;
+    margin: 10px;   
     padding: 10px 20px;
     color: white;
     font-size: 16px;
@@ -228,12 +228,14 @@ $color-game-title-shadow: #855575;
             transform: scale(0.85) !important;
             width: 100% !important;
             margin-left: 20px;
+            background-color: white;
         }
 
         .game-canvas-right {
             transform: scale(0.75) !important;
             width: 100% !important;
             top: 0;
+            background-color: white;
 
             .score-label {
                 margin-top: -25px;
